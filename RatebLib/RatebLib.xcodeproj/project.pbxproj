@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA8D80C1DBCA5C60088C4E3 /* RatebLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA8D8021DBCA5C60088C4E3 /* RatebLib.framework */; };
+		FAA8D8111DBCA5C60088C4E3 /* RatebLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8D8101DBCA5C60088C4E3 /* RatebLibTests.m */; };
+		FAA8D8131DBCA5C60088C4E3 /* RatebLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8D8051DBCA5C60088C4E3 /* RatebLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA8D81E1DBCA5D20088C4E3 /* RatebUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA8D81C1DBCA5D20088C4E3 /* RatebUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA8D81F1DBCA5D20088C4E3 /* RatebUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8D81D1DBCA5D20088C4E3 /* RatebUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA8D80D1DBCA5C60088C4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA8D7F91DBCA5C60088C4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA8D8011DBCA5C60088C4E3;
+			remoteInfo = RatebLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA8D8021DBCA5C60088C4E3 /* RatebLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RatebLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA8D8051DBCA5C60088C4E3 /* RatebLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatebLib.h; sourceTree = "<group>"; };
+		FAA8D8061DBCA5C60088C4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8D80B1DBCA5C60088C4E3 /* RatebLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatebLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA8D8101DBCA5C60088C4E3 /* RatebLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatebLibTests.m; sourceTree = "<group>"; };
+		FAA8D8121DBCA5C60088C4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8D81C1DBCA5D20088C4E3 /* RatebUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatebUtilities.h; sourceTree = "<group>"; };
+		FAA8D81D1DBCA5D20088C4E3 /* RatebUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatebUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA8D7FE1DBCA5C60088C4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8D8081DBCA5C60088C4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8D80C1DBCA5C60088C4E3 /* RatebLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA8D7F81DBCA5C60088C4E3 = {
+			isa = PBXGroup;
+			children = (
+				FAA8D8041DBCA5C60088C4E3 /* RatebLib */,
+				FAA8D80F1DBCA5C60088C4E3 /* RatebLibTests */,
+				FAA8D8031DBCA5C60088C4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA8D8031DBCA5C60088C4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8D8021DBCA5C60088C4E3 /* RatebLib.framework */,
+				FAA8D80B1DBCA5C60088C4E3 /* RatebLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA8D8041DBCA5C60088C4E3 /* RatebLib */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8D8051DBCA5C60088C4E3 /* RatebLib.h */,
+				FAA8D81C1DBCA5D20088C4E3 /* RatebUtilities.h */,
+				FAA8D81D1DBCA5D20088C4E3 /* RatebUtilities.m */,
+				FAA8D8061DBCA5C60088C4E3 /* Info.plist */,
+			);
+			path = RatebLib;
+			sourceTree = "<group>";
+		};
+		FAA8D80F1DBCA5C60088C4E3 /* RatebLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA8D8101DBCA5C60088C4E3 /* RatebLibTests.m */,
+				FAA8D8121DBCA5C60088C4E3 /* Info.plist */,
+			);
+			path = RatebLibTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAA8D7FF1DBCA5C60088C4E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8D81E1DBCA5D20088C4E3 /* RatebUtilities.h in Headers */,
+				FAA8D8131DBCA5C60088C4E3 /* RatebLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FAA8D8011DBCA5C60088C4E3 /* RatebLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA8D8161DBCA5C60088C4E3 /* Build configuration list for PBXNativeTarget "RatebLib" */;
+			buildPhases = (
+				FAA8D7FD1DBCA5C60088C4E3 /* Sources */,
+				FAA8D7FE1DBCA5C60088C4E3 /* Frameworks */,
+				FAA8D7FF1DBCA5C60088C4E3 /* Headers */,
+				FAA8D8001DBCA5C60088C4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatebLib;
+			productName = RatebLib;
+			productReference = FAA8D8021DBCA5C60088C4E3 /* RatebLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAA8D80A1DBCA5C60088C4E3 /* RatebLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA8D8191DBCA5C60088C4E3 /* Build configuration list for PBXNativeTarget "RatebLibTests" */;
+			buildPhases = (
+				FAA8D8071DBCA5C60088C4E3 /* Sources */,
+				FAA8D8081DBCA5C60088C4E3 /* Frameworks */,
+				FAA8D8091DBCA5C60088C4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA8D80E1DBCA5C60088C4E3 /* PBXTargetDependency */,
+			);
+			name = RatebLibTests;
+			productName = RatebLibTests;
+			productReference = FAA8D80B1DBCA5C60088C4E3 /* RatebLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA8D7F91DBCA5C60088C4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Khalid Alnuaim";
+				TargetAttributes = {
+					FAA8D8011DBCA5C60088C4E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 328T3E4F4D;
+						ProvisioningStyle = Automatic;
+					};
+					FAA8D80A1DBCA5C60088C4E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 328T3E4F4D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAA8D7FC1DBCA5C60088C4E3 /* Build configuration list for PBXProject "RatebLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAA8D7F81DBCA5C60088C4E3;
+			productRefGroup = FAA8D8031DBCA5C60088C4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA8D8011DBCA5C60088C4E3 /* RatebLib */,
+				FAA8D80A1DBCA5C60088C4E3 /* RatebLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA8D8001DBCA5C60088C4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8D8091DBCA5C60088C4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA8D7FD1DBCA5C60088C4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8D81F1DBCA5D20088C4E3 /* RatebUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA8D8071DBCA5C60088C4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA8D8111DBCA5C60088C4E3 /* RatebLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA8D80E1DBCA5C60088C4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA8D8011DBCA5C60088C4E3 /* RatebLib */;
+			targetProxy = FAA8D80D1DBCA5C60088C4E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA8D8141DBCA5C60088C4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA8D8151DBCA5C60088C4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAA8D8171DBCA5C60088C4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 328T3E4F4D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RatebLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.RatebLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAA8D8181DBCA5C60088C4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 328T3E4F4D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RatebLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.RatebLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FAA8D81A1DBCA5C60088C4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 328T3E4F4D;
+				INFOPLIST_FILE = RatebLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.RatebLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA8D81B1DBCA5C60088C4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 328T3E4F4D;
+				INFOPLIST_FILE = RatebLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaluaim.RatebLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA8D7FC1DBCA5C60088C4E3 /* Build configuration list for PBXProject "RatebLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8D8141DBCA5C60088C4E3 /* Debug */,
+				FAA8D8151DBCA5C60088C4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA8D8161DBCA5C60088C4E3 /* Build configuration list for PBXNativeTarget "RatebLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8D8171DBCA5C60088C4E3 /* Debug */,
+				FAA8D8181DBCA5C60088C4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA8D8191DBCA5C60088C4E3 /* Build configuration list for PBXNativeTarget "RatebLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA8D81A1DBCA5C60088C4E3 /* Debug */,
+				FAA8D81B1DBCA5C60088C4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA8D7F91DBCA5C60088C4E3 /* Project object */;
+}
